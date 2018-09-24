@@ -22,7 +22,7 @@ fs.readdir('./commands/', (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is ready to roll! Running on ${bot.guilds.size} servers!`);
-    bot.user.setActivity("to the " + Config.prefix + "help command", {type: "LISTENING"});
+    bot.user.setActivity("the " + Config.prefix + "help command", {type: "LISTENING"});
 });
 
 bot.login(Token.token);
