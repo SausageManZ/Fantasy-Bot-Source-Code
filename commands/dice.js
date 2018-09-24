@@ -17,9 +17,6 @@ module.exports.run = async(bot, message, args) => {
         msg = "I guess it's a draw :|";
     }
     message.author.send(msg);
-    setInterval(1000, () => {
-        message.author.send("XD");
-    })
 } 
 
 module.exports.help = {
