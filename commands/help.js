@@ -14,7 +14,7 @@ module.exports.run = async(bot, message, args) => {
     embed.description += "\n``&&help`` - **Well as you can tell it brought up this!**\n";
     embed.description += "\n``&&dice`` - **Play a game of die with me!**\n";
     embed.description += "\n``&&raidteam`` - **Displays a list of the current raid team and their roles**\n";
-    message.author.send(embed);
+    //message.author.send(embed);
 }
 
 module.exports.help = {
