@@ -6,6 +6,7 @@ module.exports.run = async(bot, message, args) => {
         message.channel.send("123")
         .catch(console.error); // add error handling here
     }, 1 * 1000); 
+    message.channel.send("Hello world!")
 }
 
 module.exports.help = {
