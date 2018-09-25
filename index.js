@@ -44,7 +44,7 @@ raidSoon.title = "RAID STARTING IN ONE HOUR";
 
 var raidNow = new Discord.RichEmbed();
 raidNow.color = 0xf45642;
-raidNow.title = "|__RAID IN PROGRESS__|";
+raidNow.title = "__RAID IN PROGRESS__";
 
 var raidEnd = new Discord.RichEmbed();
 raidEnd.color = 0xf45642;
@@ -61,7 +61,7 @@ var channelID = "493483660406816779";
 bot.login(Token.token).then(() => {
     console.log("Logged in!");
     var channel = bot.guilds.get(guildID).channels.get(channelID);
-    //channel.send("I'm ready to roll baby!");
+    bot.guilds.get(guildID).channels.get("493540540860727296").send("Systems are online!");
     var interval = setInterval (function () {
         var d = new Date();
         if (d.getMinutes() < 1 && d.getSeconds() <= 1) {
