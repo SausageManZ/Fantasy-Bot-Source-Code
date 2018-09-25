@@ -61,7 +61,7 @@ var channelID = "493483660406816779";
 bot.login(Token.token).then(() => {
     console.log("Logged in!");
     var channel = bot.guilds.get(guildID).channels.get(channelID);
-    channel.send("I'm ready to roll baby!");
+    //channel.send("I'm ready to roll baby!");
     var interval = setInterval (function () {
         var d = new Date();
         if (d.getMinutes() < 1 && d.getSeconds() <= 1) {
