@@ -5,7 +5,7 @@ module.exports.run = async(bot, message, args) => {
       var d = new Date();
         if (d.getDay() === 2 || d.getDay() === 7) {
             if (d.getHours() === 15 && d.getMinutes() === 28) {
-                message.channel.send("Boi time to reid");
+                
             }
         }
     }, 1 * 1000); 
