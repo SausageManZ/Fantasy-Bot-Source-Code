@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-
-module.exports.run = async(bot, message, args) => {
     const embed = new Discord.RichEmbed();
     embed.title = "Woo! You did a command!";
     embed.color = 0x42f4eb;
@@ -15,6 +13,8 @@ module.exports.run = async(bot, message, args) => {
     embed.description += "\n``&&dice`` - **Play a game of die with me!**\n";
     embed.description += "\n``&&raidteam`` - **Displays a list of the current raid team and their roles**\n";
     embed.description += "\n``&&dps`` - **(PROTOTYPE) Assign yourself the DPS role on the server**\n";
+module.exports.run = async(bot, message, args) => {
+
     message.author.send(embed);
 }
 
