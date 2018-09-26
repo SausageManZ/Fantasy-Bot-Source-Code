@@ -64,7 +64,7 @@ bot.login(Token.token).then(() => {
     bot.guilds.get(guildID).channels.get("493540540860727296").send("Systems are online!");
     var interval = setInterval (function () {
         var d = new Date();
-        if (d.getMinutes() < 1 && d.getSeconds() <= 1) {
+        if (d.getMinutes() === 5 && d.getSeconds() <= 1) {
             if (d.getDay() === 3 || d.getDay() === 7) {
                 if ((d.getHours() === 10 || 
                     d.getHours() === 14 ||
