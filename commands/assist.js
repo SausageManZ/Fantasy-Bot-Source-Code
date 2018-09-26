@@ -9,7 +9,7 @@ const Discord = require('discord.js');
     " This counts for all commands, but you had my permission to type &&help in the bot chat once to start this " +
     "lovely convestation with you :) \n" +
     "Enough said! Here are my commands fellow guildie: \n" +
-    "\n``&&help`` - **Well as you can tell it brought up this!**\n" +
+    "\n``&&assist`` - **Well as you can tell it brought up this!**\n" +
     "\n``&&dice`` - **Play a game of die with me!**\n" +
     "\n``&&raidteam`` - **Displays a list of the current raid team and their roles**\n" +
     "\n``&&dps`` - **(PROTOTYPE) Assign yourself the DPS role on the server**\n";
