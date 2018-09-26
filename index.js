@@ -66,7 +66,7 @@ bot.login(Token.token).then(() => {
         var d = new Date();
         if (d.getMinutes() < 1 && d.getSeconds() <= 1) {
             if (d.getDay() === 3 || d.getDay() === 7) {
-                if ((d.getHours() === 12 || 
+                if ((d.getHours() === 10 || 
                     d.getHours() === 14 ||
                     d.getHours() === 16 ||
                     d.getHours() === 18)
