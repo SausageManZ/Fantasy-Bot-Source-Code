@@ -52,7 +52,7 @@ raidEnd.title = "END OF RAID. CHECK LOGS CHANNEL FOR NEW LOG. THANKS FOR PLAYING
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is ready to roll! Running on ${bot.guilds.size} servers!`);
-    bot.user.setActivity("the " + Config.prefix + "help command", {type: "LISTENING"});
+    bot.user.setActivity("the " + Config.prefix + "assist command", {type: "LISTENING"});
 });
 
 var guildID = "468149366486597652";
