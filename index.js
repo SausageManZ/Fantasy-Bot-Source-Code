@@ -67,8 +67,7 @@ bot.login(Token.token).then(() => {
         if (d.getMinutes() === 1 && d.getSeconds() === 3) {
             if (d.getDay() === 3 || d.getDay() === 7) {
                 if ((d.getHours() === 10 || 
-                    d.getHours() === 14 ||
-                    d.getHours() === 16 ||
+                    d.getHours() === 15 ||
                     d.getHours() === 18)
                 ) {
                     channel.send(raidRem);
